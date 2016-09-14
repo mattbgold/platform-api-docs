@@ -13,12 +13,14 @@ Get transactions
 +--------------+---------------------------------------------------------------+
 | Parameter    | Description                                                   |
 +==============+===============================================================+
-| StartDate    | Find transacations after this date.                           |
+| StartDate    | Find transactions after this date and time.                   |
 +--------------+---------------------------------------------------------------+
-| EndDate      | Find transactions before this date.                           |
+| EndDate      | Find transactions before this date and time.                  |
 +--------------+---------------------------------------------------------------+
 | PageSize     | Number of transactions to be returned, maximum of 100.        |
 +--------------+---------------------------------------------------------------+
+
+StartDate time and EndDate time will default to 00:00:00 if a time is not provided in the request.
 
 **Response**
 
